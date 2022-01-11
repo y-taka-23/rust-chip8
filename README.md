@@ -39,6 +39,7 @@ $ cargo run -- path/to/ROM_FILE
 Keyboard Mapping
 ------------------------
 
+![keyboard mapping](images/keyboard.png)
 
 
 Options
