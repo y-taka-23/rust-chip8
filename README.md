@@ -36,6 +36,14 @@ $ cd rust-chip8
 $ cargo run -- path/to/ROM_FILE
 ```
 
+Keyboard Mapping
+------------------------
+
+
+
+Options
+------------------------
+
 You also can pass the options like `cargo run -- path/to/ROM_FILE --clock 250`.
 
 ```
