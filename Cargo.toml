@@ -1,0 +1,24 @@
+[package]
+name = "chip8"
+version = "0.1.0"
+authors = [ "Yuto Takahashi<ytaka23dev@gmail.com>" ]
+edition = "2021"
+description = "A CHIP-8 emulator in Rust with iced-powered GUI"
+repository = "https://github.com/y-taka-23/rust-chip8"
+license = "MIT"
+readme = "README.md"
+categories = [ "games" ]
+keywords = [ "emulator", "game", "iced", "chip8" ]
+
+[dependencies]
+chrono = "0.4.19"
+clap = { version = "3.0.5", features = ["cargo"] }
+cpal = "0.13.4"
+fern = "0.6.0"
+iced = { version = "0.3.0", features = ["canvas", "tokio"] }
+iced_native = "0.4.0"
+log = "0.4.14"
+rand = "0.8.4"
+
+[dev-dependencies]
+proptest = "1.0.0"
