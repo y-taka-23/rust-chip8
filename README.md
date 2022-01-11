@@ -39,8 +39,9 @@ $ cargo run -- path/to/ROM_FILE
 Keyboard Mapping
 ------------------------
 
-![keyboard mapping](images/keyboard.png)
+The CHIP-8 keys in the left are mapped to the corresponding keys of a normal keyboard in the right.
 
+<img src="images/keyboard.png" width="40%">
 
 Options
 ------------------------
