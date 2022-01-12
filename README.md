@@ -15,7 +15,7 @@ CHIP-8 Emulator in Rust
 
 A CHIP-8 emulator written in Rust and [iced](https://github.com/iced-rs/iced)-powered GUI.
 
-* All 34 CHIP-8 instructions (SUPER CHIP-8 instructions are not supported)
+* All 34 CHIP-8 instructions (SUPER CHIP instructions are not supported)
 * Sound support by sinusoidal wave beep
 * 500 Hz clock speed
 * 3 colors of the good-old-time CRT display
